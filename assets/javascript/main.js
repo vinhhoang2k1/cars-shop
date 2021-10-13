@@ -81,4 +81,58 @@ var swiper = new Swiper(".vehicles-slider", {
     },
 });
 
+var swiper = new Swiper(".featured-slider", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    grabCursor: true,// hinh ban tay
+    centeredSlides: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1
+        },
+        768: {
+            slidesPerView: 3
+        },
+        991: {
+            slidesPerView: 3
+        },
+    },
+});
+var swiper = new Swiper(".review-slider", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    grabCursor: true,// hinh ban tay
+    centeredSlides: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1
+        },
+        768: {
+            slidesPerView: 2
+        },
+        991: {
+            slidesPerView: 3
+        },
+    },
+});
+
+
 
